@@ -1,54 +1,42 @@
 @font-face {
-    font-family: 'robotolight';
-    src: url('../fonts/Roboto-Light-webfont.eot');
-    src: url('../fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Roboto-Light-webfont.woff') format('woff'),
-         url('../fonts/Roboto-Light-webfont.ttf') format('truetype'),
-         url('../fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-family: 'Josefin Sans';
+    src: url('../fonts/JosefinSans.eot');
+    src: url('../fonts/JosefinSans.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/JosefinSans.woff') format('woff'),
+         url('../fonts/JosefinSans.ttf') format('truetype'),
+         url('../fonts/JosefinSans.svg#Josefin Sans') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'robotoregular';
-    src: url('../fonts/Roboto-Regular-webfont.eot');
-    src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
-         url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-family: 'Josefin Sans';
+    src: url('../fonts/JosefinSans-Bold.eot');
+    src: url('../fonts/JosefinSans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/JosefinSans-Bold.woff') format('woff'),
+         url('../fonts/JosefinSans-Bold.ttf') format('truetype'),
+         url('../fonts/JosefinSans-Bold.svg#Josefin Sans') format('svg');
     font-weight: normal;
     font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'robotobold';
-    src: url('../fonts/Roboto-Bold-webfont.eot');
-    src: url('../fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Roboto-Bold-webfont.woff') format('woff'),
-         url('../fonts/Roboto-Bold-webfont.ttf') format('truetype'),
-         url('../fonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+ 
 }
 
 
 
 
 
-$body-color:		#777;
+$body-color:		rgba(45,61,59,0.8);
 
 
-$heading-color:		#404040;
+$heading-color:		rgba(45,61,59,0.8);
 
 
-$accent:			#6cc0f7;
+$accent:			rgba(0,255,222,0.6);
 $black:				#000;
-$white:				#fff;
+$white:				#E3E8DC;
 $light-bg:			#e9e9e9;
-$dark-bg:           #5f6d7e;
+$dark-bg:           #383A35;
 $border-color:      #dddddd;
 $light-color:       #999;
 

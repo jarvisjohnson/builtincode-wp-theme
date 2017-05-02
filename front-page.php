@@ -9,8 +9,8 @@
          <div class="banner-bg" id="top">
              <div class="banner-overlay"></div>
              <div class="welcome-text">
-                 <h2>Brooklyn eCommerce Specialists</h2>
-                 <h5>Built in Code create websites and web apps in Brooklyn. We design and develop custom websites, specialising in online stores. <a href="#contact" class="contact-scroll">Talk to us</a> about how your website can drive your business.</h5>
+                 <h2>NYC Web Application Development</h2>
+                 <h5>Built in Code develop websites and web applications in Brooklyn. We develop custom websites and enterprise applications, including online stores. <a href="#Message" class="contact-scroll">Talk to us</a> about building the right application for your business needs.</h5>
              </div>
          </div>
 
@@ -24,7 +24,7 @@
                      <div class="page-section" id="projects">
                      <div class="row">
                          <div class="col-md-12">
-                             <h1 class="widget-title">Recent Websites</h1>
+                             <h1 class="widget-title">Recent projects</h1>
                            <?php if (get_field('portfolio_text')):
                               the_field('portfolio_text');
                         endif; ?>
@@ -56,7 +56,7 @@
                      <div class="page-section" id="capabilities">
                        <div class="row">
                            <div class="col-md-12">
-                               <h1 class="widget-title">Technologies We Use</h1>
+                               <h1 class="widget-title">Some tech we use</h1>
                              <?php if (get_field('capability_text')):
                                 the_field('capability_text');
                               endif; ?>
@@ -85,11 +85,11 @@
                        <hr>
 
 
-                     <!-- CONTACT -->
-                     <div class="page-section" id="contact">
+                     <!-- hiring -->
+                     <div class="page-section" id="hire">
                      <div class="row">
                          <div class="col-md-12">
-                             <h1 class="widget-title">Hire Us</h1>
+                             <h1 class="widget-title">Hire us</h1>
                              <p>We are currently available to take on new projects. We'd love to hear from you if you require  development work, so please get in touch below.</p>
                              <p>We work on Eastern Standard time, and are typically available from 9-5.</p><br>
                              <address class="visible-xs visible-sm">
@@ -107,89 +107,25 @@
                      </div>
                      <hr>
 
-                     <!-- PRICING -->
-                     <div class="page-section" id="Pricing">
+                     <!-- Message Us -->
+                     <div class="page-section" id="Message">
                        <div class="row">
                            <div class="col-md-12">
-                             <h1 class="widget-title">Web Development Price Guide</h1>
+                             <h1 class="widget-title">Send us a message</h1>
                              <p>
-                               Built in Code often work with web designers on custom web projects. The price guides below reflect development work without design.  We also love to provide full package webiste solutions including web design, hosting, and SEO services. We can be hired out for hourly work on existing sites as well.  Every business's needs are different, and we are happy to bounce ideas round, so please contact us to discuss your project.
+                               Built in Code often work with web designers on custom web projects and apps. The price guides below reflect development work without design.  We also love to provide full package webiste solutions including web design, hosting, and SEO services. We can be hired out for hourly work on existing applications as well.  Every business's needs are different, and we are happy to bounce ideas round, so please contact us to discuss your project.
                               <p>
                            </div>
                          </div>
-                        	<div class="row" style="margin-top: 40px;">
-                                <div class="col-xs-12 col-sm-4">
-                                  <div class="panel panel-warning text-center">
-                                    <div class="panel-heading">
-                                      <h2>Small Site</h2>
-                                    </div>
-                                    <div class="panel-body">
-                                      <h3 class="panel-title price"><span class="price-month">~</span>&nbsp;$1200<span class="price-cents">&nbsp;usd</span></h3>
-                                    </div>
-                                    <ul class="list-group">
-                                      <li class="list-group-item">Blog</li>
-                                      <li class="list-group-item">Custom Theme</li>
-                                      <li class="list-group-item">Landing Page</li>
-                                      <li class="list-group-item">Contact Page / Form</li>
-                                      <li class="list-group-item">Responsive Functionality</li>
-                                      <li class="list-group-item">Site Security</li>
-                                      <li class="list-group-item"><a class="btn btn-warning contact-scroll" href="#contact">Request Quote</a></li>
-                                    </ul>
-                                  </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-4">
-                                  <div class="panel panel-info text-center">
-                                    <div class="panel-heading">
-                                      <h2>Medium Site</h2>
-                                    </div>
-                                    <div class="panel-body">
-                                      <h3 class="panel-title price"><span class="price-month">~</span>&nbsp;$2400<span class="price-cents">&nbsp;usd</span></h3>
-                                    </div>
-                                    <ul class="list-group">
-                                      <li class="list-group-item">Small Features plus ... </li>
-                                      <li class="list-group-item">Custom Post Types</li>
-                                      <li class="list-group-item">Intricate Layouts / Functionality</li>
-                                      <li class="list-group-item"><a class="btn btn-info contact-scroll" href="#contact">Request Quote</a></li>
-                                    </ul>
-                                  </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-4">
-                                  <div class="panel panel-success text-center">
-                                    <div class="panel-heading">
-                                      <h2>Large Site</h2>
-                                    </div>
-                                    <div class="panel-body">
-                                      <h3 class="panel-title price"><span class="price-month">~</span>&nbsp;$3600<span class="price-cents">&nbsp;usd</span></h3>
-                                    </div>
-                                    <ul class="list-group">
-                                      <li class="list-group-item">Medium Features plus ... </li>
-                                      <li class="list-group-item">Custom eCommerce</li>
-                                      <li class="list-group-item">Payment Functionality</li>
-                                      <li class="list-group-item">CRM Integration</li>
-                                      <li class="list-group-item"><a class="btn btn-success contact-scroll" href="#contact">Request Quote</a></li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="row">
-                                    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
-                                      <div class="panel panel-default text-center">
-                                        <div class="panel-heading">
-                                          <h2>Ad Hoc Work</h2>
-                                        </div>
-                                        <div class="panel-body">
-                                          <h3 class="panel-title price"><span class="price-month"></span>&nbsp;$80<span class="price-cents">&nbsp;/hr</span></h3>
-                                        </div>
-                                        <ul class="list-group">
-                                          <li class="list-group-item">Adding Site Content</li>
-                                          <li class="list-group-item">Site Uploading / Server Admin</li>
-                                          <li class="list-group-item">Site Revisions</li>
-                                          <li class="list-group-item">Design Work</li>
-                                          <li class="list-group-item"><a class="btn btn-default contact-scroll" href="#contact">Enquire</a></li>
-                                        </ul>
-                                      </div>
-                                    </div>
-                                </div>
+                         <br>
+                         <hr>
+                         <br>
+                       <div class="row">
+                           <div class="col-md-12">
+                            <?php echo do_shortcode("[contact-form-7 id='315' title='Primary']");?>
+                            </div>
+                        </div>                         
+                        
                      </div>
                      <hr style="margin-bottom:10px;">
 

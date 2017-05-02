@@ -39,7 +39,7 @@ get_header(); ?>
 								endwhile;
 
 								echo '<article><div class="row"><div class="col-sm-10 col-sm-offset-1 pad-xs-30 pad-sm-45 padding-bottom">';
-								echo '<p>If you enjoyed our blog, <a href="mailto:hello@swish.online" target="_blank">let us know</a>!</p>';
+								echo '<p>If you enjoyed our blog, <a href="mailto:hello@builtincode.com" target="_blank">let us know</a>!</p>';
 								// Previous/next page navigation.
 								the_posts_pagination( array(
 									'prev_text'          => __( 'Previous page', 'twentyfifteen' ),

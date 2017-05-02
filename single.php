@@ -31,7 +31,7 @@ get_header(); ?>
 			get_template_part( 'content', 'list' );
 
 				?><article><div class="row"><div class="col-sm-10 col-sm-offset-1 pad-xs-30 pad-sm-45 padding-bottom">
-					<p>If you enjoyed this post, <a href="mailto:hello@swish.online" target="_blank">let us know</a>!</p>
+					<p>If you enjoyed this post, <a href="mailto:hello@builtincode.com" target="_blank">let us know</a>!</p>
 					<?php
 
 			// If comments are open or we have at least one comment, load up the comment template.

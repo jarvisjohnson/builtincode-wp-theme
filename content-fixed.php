@@ -7,11 +7,11 @@ MOBILE SIDEBAR
 									<div class="col-md-12">
 											<div class="top-section">
 													<div class="profile-image">
-															<img src="<?php echo get_template_directory_uri() ?>/img/in-code-iconz.svg" alt="Brooklyn Shopify Developers">
+															<img src="<?php echo get_template_directory_uri() ?>/img/logos/Square@2x.png" alt="Built in Code - Web application developers">
 													</div>
 													<div class="profile-content">
-														<img class="profile-title" src="<?php echo get_template_directory_uri() ?>/img/built-in-code-darkbg.svg" alt="Brooklyn eCommerce eCommerce Developers">
-														<p class="profile-description">eCommerce Developers</p>
+														<img class="profile-title" src="<?php echo get_template_directory_uri() ?>/img/logos/no-bg@2x.png" alt="Brooklyn eCommerce eCommerce Developers">
+														<p class="profile-description">Application Developers</p>
 													</div>
 											</div>
 									</div>
@@ -23,20 +23,20 @@ MOBILE SIDEBAR
 									 <li><a href="#top"><i class="fa fa-globe"></i>Welcome</a></li>
 									 <li><a href="#projects"><i class="fa fa-picture-o"></i>Portfolio</a></li>
 									 <li><a href="#capabilities"><i class="fa fa-code"></i>Capabilities</a></li>
-									 <li><a href="#contact"><i class="fa fa-hand-peace-o"></i>Contact</a></li>
-									 <li><a href="#Pricing"><i class="fa fa-ticket"></i>Pricing</a></li>
+									 <li><a href="#hire"><i class="fa fa-hand-peace-o"></i>Hire us</a></li>
+									 <li><a href="#Message"><i class="fa fa-ticket"></i>Message us</a></li>
 									 <li><a href="<?php echo the_permalink(2)?>"><i class="fa fa-quote-left"></i>Articles</a></li>
-									 <li><a href="http://keptincloud.com/whmcs/" onclick="window.location='http://keptincloud.com/whmcs/';"><i class="fa fa-users"></i>Client Login</a></li>
+									 <li><a href="https://www.builtincode.com/clients/sign_in" onclick="window.location='https://www.builtincode.com/clients/sign_in';"><i class="fa fa-users"></i>Client Login</a></li>
 								<?php }
 								elseif (is_home()){ ?>
 									<li><a href="<?php echo the_permalink(9)?>"><i class="fa fa-home"></i>Home</a></li>
 									<li><a href="#top"><i class="fa fa-quote-left"></i>Articles</a></li>
-									<li><a href="http://keptincloud.com/whmcs/" onclick="window.location='http://keptincloud.com/whmcs/';"><i class="fa fa-users"></i>Client Login</a></li>
+									<li><a href="https://www.builtincode.com/clients/sign_in" onclick="window.location='https://www.builtincode.com/clients/sign_in';"><i class="fa fa-users"></i>Client Login</a></li>
 								<?php }
 								elseif (is_archive()){ ?>
 									<li><a href="<?php echo the_permalink(9)?>"><i class="fa fa-home"></i>Home</a></li>
 									<li><a href="<?php echo the_permalink(2)?>"><i class="fa fa-quote-left"></i>Articles</a></li>
-									<li><a href="http://keptincloud.com/whmcs/" onclick="window.location='http://keptincloud.com/whmcs/';"><i class="fa fa-users"></i>Client Login</a></li>
+									<li><a href="https://www.builtincode.com/clients/sign_in" onclick="window.location='https://www.builtincode.com/clients/sign_in';"><i class="fa fa-users"></i>Client Login</a></li>
 								<?php }
 								else { ?>
 									<li><a href="<?php echo the_permalink(9)?>"><i class="fa fa-home"></i>Home</a></li>
@@ -48,7 +48,7 @@ MOBILE SIDEBAR
 												echo substr($thetitle, 0, $thelength);
 												if ($getlength > $thelength) echo "...";
 												?></a></li>
-									<li><a href="http://keptincloud.com/whmcs/" onclick="window.location='http://keptincloud.com/whmcs/';"><i class="fa fa-users"></i>Client Login</a></li>
+									<li><a href="https://www.builtincode.com/clients/sign_in" onclick="window.location='https://www.builtincode.com/clients/sign_in';"><i class="fa fa-users"></i>Client Login</a></li>
 								<?php }; ?>
 							 </ul>
 							</div> <!-- .main-navigation -->
@@ -60,10 +60,10 @@ FIXED SIDEBAR
 		 <sidebar class="sidebar-menu hidden-xs hidden-sm">
 				 <div class="top-section">
 						 <div class="profile-image">
-								 <img src="<?php echo get_template_directory_uri() ?>/img/in-code-iconz.svg" alt="Brooklyn Shopify Developers">
+								 <img src="<?php echo get_template_directory_uri() ?>/img/logos/Square@2x.png" alt="Brooklyn Shopify Developers">
 						 </div>
-						 <img class="profile-title" src="<?php echo get_template_directory_uri() ?>/img/built-in-code-darkbg.svg" alt="Brooklyn eCommerce web site developers">
-						 <p class="profile-description">eCommerce Developers</p>
+						 <img class="profile-title" src="<?php echo get_template_directory_uri() ?>/img/logos/no-bg@2x.png" alt="Brooklyn rails developers">
+						 <p class="profile-description">Application Developers</p>
 				 </div> <!-- top-section -->
 				 <div class="main-navigation">
 					 <ul class="navigation">
@@ -71,20 +71,20 @@ FIXED SIDEBAR
 								<li><a href="#top"><i class="fa fa-globe"></i>Welcome</a></li>
 								<li><a href="#projects"><i class="fa fa-picture-o"></i>Portfolio</a></li>
 								<li><a href="#capabilities"><i class="fa fa-code"></i>Capabilities</a></li>
-								<li><a href="#contact"><i class="fa fa-hand-peace-o"></i>Contact</a></li>
-								<li><a href="#Pricing"><i class="fa fa-ticket"></i>Pricing</a></li>
+								<li><a href="#hire"><i class="fa fa-hand-peace-o"></i>Hire us</a></li>
+								<li><a href="#Message"><i class="fa fa-ticket"></i>Message us</a></li>
 								<li><a href="<?php echo the_permalink(2)?>"><i class="fa fa-quote-left"></i>Articles</a></li>
-								<li><a href="http://keptincloud.com/whmcs/" onclick="window.location='http://keptincloud.com/whmcs/';"><i class="fa fa-users"></i>Client Login</a></li>
+								<li><a href="https://www.builtincode.com/clients/sign_in" onclick="window.location='https://www.builtincode.com/clients/sign_in';"><i class="fa fa-users"></i>Client Login</a></li>
 						 <?php }
 						 elseif (is_home()){ ?>
 							 <li><a href="<?php echo the_permalink(9)?>"><span class="left-align-menu"><i class="fa fa-home"></i>Home</span></a></li>
 							 <li><a href="#top"><span class="left-align-menu"><i class="fa fa-quote-left"></i>Articles</span></a></li>
-							 <li><a href="http://keptincloud.com/whmcs/" onclick="window.location='http://keptincloud.com/whmcs/';"><i class="fa fa-users"></i>Client Login</a></li>
+							 <li><a href="https://www.builtincode.com/clients/sign_in" onclick="window.location='https://www.builtincode.com/clients/sign_in';"><i class="fa fa-users"></i>Client Login</a></li>
 						 <?php }
 						 elseif (is_archive()){ ?>
 							 <li><a href="<?php echo the_permalink(9)?>"><span class="left-align-menu"><i class="fa fa-home"></i>Home</span></a></li>
 							 <li><a href="<?php echo the_permalink(2)?>"><span class="left-align-menu"><i class="fa fa-quote-left"></i>Articles</span></a></li>
-							 <li><a href="http://keptincloud.com/whmcs/" onclick="window.location='http://keptincloud.com/whmcs/';"><i class="fa fa-users"></i>Client Login</a></li>
+							 <li><a href="https://www.builtincode.com/clients/sign_in" onclick="window.location='https://www.builtincode.com/clients/sign_in';"><i class="fa fa-users"></i>Client Login</a></li>
 						 <?php }
 						 else { ?>
 							 <li><a href="<?php echo the_permalink(9)?>"><span class="left-align-menu"><i class="fa fa-home"></i>Home</span></a></li>
@@ -96,7 +96,7 @@ FIXED SIDEBAR
 										 echo substr($thetitle, 0, $thelength);
 										 if ($getlength > $thelength) echo "...";
 										 ?></span></a></li>
-							<li><a href="http://keptincloud.com/whmcs/" onclick="window.location='http://keptincloud.com/whmcs/';"><i class="fa fa-users"></i>Client Login</a></li>										 
+							<li><a href="https://www.builtincode.com/clients/sign_in" onclick="window.location='https://www.builtincode.com/clients/sign_in';"><i class="fa fa-users"></i>Client Login</a></li>										 
 						 <?php }; ?>
 						</ul>
 				 </div> <!-- .main-navigation -->
@@ -105,7 +105,7 @@ FIXED SIDEBAR
 								 <li><a href="https://www.facebook.com/SwishWebSolutions/" target="_blank"><i class="fa fa-facebook"></i></a></li>
 								 <li><a href="https://github.com/SwishWebSolutions" target="_blank"><i class="fa fa-github"></i></a></li>
 								 <li><a href="https://www.linkedin.com/company/6631219" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-								 <li><a href="mailto:hello@swish.online" target="_blank"><i class="fa fa-envelope"></i></a></li>
+								 <li><a href="mailto:hello@builtincode.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
 								 <li><a href="https://plus.google.com/108508570866696226882/about?gmbpt=true" target="_blank"><i class="fa fa-google-plus"></i></a></li>
 						 </ul>
 				 </div> <!-- .social-icons -->
