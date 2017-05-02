@@ -1,0 +1,36 @@
+#footer {
+	position: relative;
+	p.copyright-text {
+		margin: 20px 0;
+		font-size: 13px;
+		a {
+			color: $dark-bg;
+			&:hover {
+				color: $accent;
+			}
+		}
+	}
+	@include media (max-width $tablet){
+		background: $dark-bg;
+		p{
+			color: white;
+		}
+		p.copyright-text
+		{
+			margin: 40px 0;
+			a {
+			color: #6cc0f7;
+			}
+		}
+		.social-icons{
+			width: 100%;
+			position: initial;
+			bottom: initial;
+			padding: 0;
+			li:last-child{
+				margin-right: 0;
+			}
+
+		}
+	}
+}
